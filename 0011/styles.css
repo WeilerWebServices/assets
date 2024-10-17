@@ -1,0 +1,99 @@
+/* Boilerplate */
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  font-family: Georgia;
+  background-color: rgb(255 255 255);
+}
+
+main {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 33% 33% 33%;
+  height: 600px;
+  margin: 1rem auto;
+  width: 600px;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 8rem;
+}
+
+div:focus {
+  background-color: rgb(31, 123, 204);
+}
+
+.tl {
+  border-right: 0.5rem rgb(0, 0, 0);
+  border-right-style: groove;
+  border-bottom: 0.5rem rgb(0, 0, 0);
+  border-bottom-style: groove;
+  border-spacing: 0;
+}
+
+.tr {
+  border-left: 0.5rem rgb(0, 0, 0);
+  border-left-style: groove;
+  border-bottom: 0.5rem rgb(0, 0, 0);
+  border-bottom-style: groove;
+  border-spacing: 0;
+}
+
+.center {
+  border: 0.5rem rgb(0, 0, 0);
+  border-style: groove;
+  border-spacing: 0;
+}
+
+.bl {
+  border-right: 0.5rem rgb(0, 0, 0);
+  border-right-style: groove;
+  border-top: 0.5rem rgb(0, 0, 0);
+  border-top-style: groove;
+  border-spacing: 0;
+}
+
+.br {
+  border-left: 0.5rem rgb(0, 0, 0);
+  border-left-style: groove;
+  border-top: 0.5rem rgb(0, 0, 0);
+  border-top-style: groove;
+  border-spacing: 0;
+}
+
+h1 {
+  font-size: 5rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+#reset {
+  display: block;
+  font-size: 1rem;
+  margin: 1rem auto;
+}
+
+p {
+  display: inline;
+  font-size: 2rem;
+  margin: 2rem;
+}
+
+.win {
+  background-color: rgb(0, 255, 0);
+}

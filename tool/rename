@@ -1,0 +1,6 @@
+#!/usr/bin/env zsh
+
+# Rename
+SUBSEXPR=$1
+shift
+for i in $@; do mv $i `echo "$i" | sed $SUBSEXPR`; done
