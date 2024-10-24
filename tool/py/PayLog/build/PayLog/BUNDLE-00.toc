@@ -1,0 +1,3 @@
+([('PayLog',
+   '/Users/air/github/Projects/assets/py/PayLog/dist/PayLog',
+   'EXECUTABLE')],)

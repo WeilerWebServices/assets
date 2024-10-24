@@ -1,0 +1,206 @@
+html {
+  box-sizing: border-box;
+}
+
+*,* ::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  width: auto;
+  height: auto;
+  background: rgb(123, 171, 201);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+}
+
+h1{
+  font-weight: bold;
+  color: rgb(41, 243, 22);
+  height: 6.25rem;
+  font-size: 60pt;
+}
+
+h2 {
+  font-weight: bold;
+  color: rgb(216, 19, 19);
+  font-size: 16pt;
+  position: absolute;
+  margin: 0 1rem;
+}
+
+#mazeName {
+display: none;
+}
+
+#ending {
+  width: 50rem;
+  height: 50rem;
+  background-color: rgb(28, 223, 28);
+}
+
+#ending h1 {
+  padding: 0.625rem;
+}
+
+#coverTwo {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  right: 0;
+  flex-direction: row;
+}
+
+/*table styles*/
+table {
+  margin: auto;
+  text-align: center;
+  width: auto;
+  height: auto;
+  border-spacing: 0;
+  border-collapse: initial;
+  position: absolute;
+}
+
+div#cover {
+  position: none;
+}
+
+
+/*for the moving object*/
+#player {
+  position: absolute;
+  width: 1.25rem;
+  height: 1.25rem;
+  display: block;
+  background-color: rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+  z-index: 100;
+}
+
+button, a {
+  background-color: rgb(235, 190, 107);
+  color: rgb(0, 0, 0);
+  margin: 3rem;
+  width: 23rem;
+  height: 8rem;
+  border: 1rem outset;
+}
+
+#backButton {
+  position: absolutene;
+  background-color: rgb(235, 190, 107);
+  color: rgb(0, 0, 0);
+  font-size: 13pt;
+  border: 1px solid rgb(0, 0, 0);
+  margin: 0;
+  height: 1.5rem;
+  top: 0;
+  right: 25rem;
+  width: auto;
+}
+
+a {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*section which is for end game scenario*/
+section {
+  margin: auto;
+  border: 0.1rem inset rgb(0, 0, 0);
+  border-radius: 0.625rem;
+  background-color: grey;
+  z-index: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#info {
+  margin: 0.3125rem;
+  padding: 0.3125rem;
+}
+
+p {
+  color: red;
+  font-size: 25pt;
+  height: 3.125rem;
+}
+
+tr {
+  border: none;
+}
+/*table element styles*/
+td {
+  width: 1.5625rem;
+  height: 2.1875rem;
+  margin: 0;
+  border: none;
+  padding: 0;
+}
+
+/* For each type of td */
+#win {
+  background-color: rgb(231, 200, 22);
+  color:rgb(231, 200, 22);
+}
+
+.wall {
+  color:green;
+  background-color: green;
+}
+
+.freespace {
+  color:blue;
+  background-color: blue;
+}
+
+#start {
+  color:rgb(52, 129, 52);
+  background-color: rgb(52, 129, 52);
+}
+
+@media screen and (min-width: 47.5rem) {
+section {
+    width: 37.5rem;
+    height: 37.5rem;
+    border: 0.1 groove rgb(0, 0, 0);
+    border-radius: 0.625rem;
+    background-color: grey;
+    z-index: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+}
+
+#coverTwo {
+  top: 0;
+  left: 50rem;
+}
+
+#info {
+  width: 50rem;
+  height: 50rem;
+}
+
+@media screen and (min-width: 75rem) {
+#coverTwo {
+  top: 0;
+  left: 16.25rem;
+}
+}
+
+@media screen and (min-width: 93.75rem) {
+#coverTwo {
+  left: 87.5rem;
+}
+}

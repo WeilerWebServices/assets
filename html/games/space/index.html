@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-136931534-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-136931534-2');
+    </script>
+<!-- End Global site tag (gtag.js) - Google Analytics -->
+
+<!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            let f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-N6CPWJZ');
+    </script>
+<!-- End Google Tag Manager -->
+
+    <meta charset='UTF-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="apple-touch-icon" sizes="180x180" href="Images/apple-touch-icon.ico">
+    <link rel="android-chrome-512x512" sizes="512x512" href="Images/android-chrome-512x512.ico">
+    <link rel="android-chrome-192x192" sizes="192x192" href="Images/android-chrome-192x192.ico">
+    <link rel="favicon-32x32" type="image/png" sizes="32x32" href="Images/favicon-32x32.ico">
+    <link rel="favicon-16x16" type="image/png" sizes="16x16" href="Images/favicon-16x16.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+<!--
+	 __    __   _______  __       __        ______
+	|  |  |  | |   ____||  |     |  |      /  __  \
+	|  |__|  | |  |__   |  |     |  |     |  |  |  |
+	|   __   | |   __|  |  |     |  |     |  |  |  |
+	|  |  |  | |  |____ |  `----.|  `----.|  `--'  |
+	|__|  |__| |_______||_______||_______| \______/
+									 _
+					  __ _ _ __   __| |
+					 / _` | '_ \ / _` |
+					| (_| | | | | (_| |
+					 \__,_|_| |_|\__,_|
+       _          __  _
+      \ \        / / | |
+       \ \  /\  / /__| | ___ ___  _ __ ___   ___
+        \ \/  \/ / _ \ |/ __/ _ \| '_ ` _ \ / _ \
+         \  /\  /  __/ | (_| (_) | | | | | |  __/
+          \/  \/ \___|_|\___\___/|_| |_| |_|\___|
+to my source code at Weiler Web Services! I bet
+you didn't expect to see this in my source code?
+If you likedwhat you see, and want to contact me.
+            weilerwebservices@gmail.com
+-->
+    <title>Space Invaders</title>
+
+<!-- Link to CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+<!-- Link to JavaScript -->
+    <script defer type="text/javascript" src="script.js"></script>
+  </head>
+  <body>
+
+    <div class="fullGame">
+
+      <div class="stateOfgame">
+        <div class="gameTittle">
+          <h1>Space Invaders</h1>
+        </div>
+<!-- State of the game -->
+       <div class="gameScorediv">
+         <p><b class="playerScore"></b></p>
+       </div>
+      </div>
+
+<!-- Game Screen -->
+    <div class="canvas">
+
+      <div class='win'><p>YOU WIN!</p></div>
+<!-- Enemies Div -->
+    <div class="enemies"></div>
+
+<!-- Player Bullets -->
+
+<!--  Player Spaceship -->
+    <div class="player" id="player"></div>
+
+    </div>
+<!-- End of Canvas (Game Screen) -->
+
+<!-- Game Controlers -->
+    <div class="gameControlers">
+      <div class="restart">
+        <div class="restartButton">
+          <button class="playAgainButton" title="Restart this game">Press R or Click here to Play Again!</button>
+        </div>
+      </div>
+      <div class="left">
+        &#8592;
+      </div>
+      <div class="up">
+        &#8593;
+      </div>
+      <div class="right">
+        &#8594;
+      </div>
+    </div>
+    </div>
+
+  </body>
+</html>
