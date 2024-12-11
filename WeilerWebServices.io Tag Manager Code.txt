@@ -1,0 +1,145 @@
+# Install Google Tag Manager
+
+# Copy the code below and paste it onto every page of your website.
+
+# Paste this code as high in the <head> of the page as possible:
+
+##########################################################################################
+
+<!DOCTYPE html>
+ <html lang="zxx">
+	<head>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-136931534-2"></script>
+	
+		<!-- =========== Google Tag Manager =========== -->
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-NC288NB');</script>
+    		<!-- =========== End Google Tag Manager =========== -->
+
+    		<!-- ==================== Metas ==================== -->
+        	<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+		<meta name="keywords" content="Weiler Web Services" />
+		<meta name="description" content="Weiler Web Services" />
+		<meta name="author" content="Weiler Web Services" />
+
+		<!-- ==================== Title ==================== -->
+		<title>Weiler Web Services</title>
+
+		<!-- ==================== Favicon ==================== -->
+		<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+		<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+		<link rel="manifest" href="/manifest.json">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+		<meta name="theme-color" content="#ffffff">
+
+# Additionally, paste this code immediately after the opening <body>
+
+    <!-- =========== Google Tag Manager (noscript) =========== -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NC288NB"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- =========== End Google Tag Manager (noscript) =========== --> tag:
+
+</head>
+    <body>
+
+    <!-- =========== Google Tag Manager (noscript) =========== -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NC288NB"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- =========== End Google Tag Manager (noscript) =========== -->
+
+# For more information about installing the Google Tag Manager snippet, visit our Quick Start Guide(https://developers.google.com/tag-manager/quickstart)
+
+
+##########################################################################################
+
+    <!-- =========== Google Tag Manager =========== -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NC288NB');</script>
+    <!-- =========== End Google Tag Manager =========== --
+
+##########################################################################################
+
+
+<!-- ===========
+ __    __   _______  __       __        ______
+|  |  |  | |   ____||  |     |  |      /  __  \
+|  |__|  | |  |__   |  |     |  |     |  |  |  |
+|   __   | |   __|  |  |     |  |     |  |  |  |
+|  |  |  | |  |____ |  `----.|  `----.|  `--'  |
+|__|  |__| |_______||_______||_______| \______/
+
+		 _
+  __ _ _ __   __| |
+ / _` | '_ \ / _` |
+| (_| | | | | (_| |
+ \__,_|_| |_|\__,_|
+
+__          __  _
+\ \        / / | |
+ \ \  /\  / /__| | ___ ___  _ __ ___   ___
+  \ \/  \/ / _ \ |/ __/ _ \| '_ ` _ \ / _ \
+   \  /\  /  __/ | (_| (_) | | | | | |  __/
+    \/  \/ \___|_|\___\___/|_| |_| |_|\___|
+
+to my source code at Weiler Web Services!
+I bet you didn't expect to see this in my source code?
+If you like what you see, and want to contact me.
+Email = WeilerWebServices@gmail.com
+ =========== -->
+
+</head>
+    <body>
+
+    <!-- =========== Google Tag Manager (noscript) =========== -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NC288NB"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- =========== End Google Tag Manager (noscript) =========== -->
+
+##########################################################################################
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-136931534-2"></script>
+
+##########################################################################################
+
+# Social Links
+
+< WWS >
+"https://weilerwebservices.github.io/WeilerWebServices.io/"
+"https://weilerwebservices.github.io/Space-Invaders-Game/"
+"https://weilerwebservices.github.io/Tic-Tac-Toe/"
+"https://weilerwebservices.github.io/snake/"
+"https://www.facebook.com/WeilerWebServices"
+"https://x.com/WeilerWeb"
+
+< NW >
+
+##########################################################################################
+
+<p><a href="https://weilerwebservices.github.io/WeilerWebServices.io">Weiler Web Services</a> All Right Reserved.</p>
+
+<p class="copyright mb-0 ">@ Copyright Reserved to <a href="https://weilerwebservices.github.io/WeilerWebServices.io">Weiler Web Services</a> All Right Reserved</p>
+
+<p class="footer-text m-0">Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved <a href="https://weilerwebservices.github.io/WeilerWebServices.io" target="_blank">Weiler Web Services</a></p>
